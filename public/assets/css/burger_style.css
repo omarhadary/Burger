@@ -1,0 +1,14 @@
+.top-row {
+	color: red;
+	margin: 5% 0 0 0;
+	text-align: center;
+}
+.centered {
+	text-align: center;
+}
+#add-burger {
+	background-color: #337ab7;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
