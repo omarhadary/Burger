@@ -1,3 +1,4 @@
+// Setup MySQL
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
@@ -16,4 +17,5 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
+// Export MySQL connection for the ORM.
 module.exports = connection;
