@@ -33,7 +33,7 @@ router.put("/burgers/update/:id", function(req, res) {
 
     console.log("condition", condition);
     burger.updateOne({
-        devoured: req.boy.devoured
+        devoured: req.body.devoured
     }, condition, function() {
         res.redirect("/burgers");
     });
