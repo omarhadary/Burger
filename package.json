@@ -2,8 +2,9 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,5 +15,8 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.7",
     "mysql": "^2.12.0"
+  },
+  "engines": {
+    "node": "7.2.1"
   }
 }
