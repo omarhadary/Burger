@@ -20,9 +20,9 @@ router.get("/burgers", function(req, res) {
 
 router.post("/burgers/add", function(req, res) {
     burger.insertOne([
-        "burger_name", "devoured"
+        "burger_name"
     ], [
-        req.body.burger_name, req.body.devoured
+        req.body.burger_name
     ], function() {
         res.redirect("/burgers");
     });
