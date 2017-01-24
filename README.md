@@ -14,7 +14,7 @@ Eat-Da-Burger is an app that allowes users to log their favourite burgers and th
 
 ### Heroku Deployment
 
-XXXXXXXXXXXXXXXXXXXXXXXXX
+https://eat-da-burgers.herokuapp.com/
 
 ### Tech
 
